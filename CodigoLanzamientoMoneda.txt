@@ -1,0 +1,21 @@
+Moneda Normal
+
+library(animation)
+ani.options(nmax = 100, interval = 0.2)
+par(mar = c(3,4,3,3))
+flip.coin(faces = c("cara","sello"), type = "n", prob = c(0.5, 0.5), col = c(3,12))
+
+
+Monedeacon peso hacia "1"
+ani.options(nmax = 100, interval = 0.2)
+par(mar = c(3,4,3,3))
+flip.coin(faces = c("cara","sello"), type = "n", prob = c(0.3, 0.7), col = c(3,12))
+
+
+dado con peso 40% a la cara 4
+/*Solo representa las coordenadas del margen*/
+ani.options(nmax = 100, interval = 0.2)
+par(mar = c(3,4,3,3))
+
+/*Faces= valores del lanzamiento prob= las probabilidades de c/valor col= colores de cada valor para barras*/
+flip.coin(faces = c("1","2","3","4","5","6"), type = "n", prob = c(0.12,0.12,0.12,0.40,0.12,0.12), col = c(3,12,4,8,2,5))
